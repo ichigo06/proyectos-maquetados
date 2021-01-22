@@ -273,11 +273,21 @@ color: #FFFFFF;
 }
 @media (max-width: 900px){
    .display-grid-template {
-        display: none;
+        
+        display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+    }
+    .flex-template {
+        justify-content: center;
+    align-items: center;
+    flex-direction: column;
     }
     .icono-buscaodr {
         display: block
     };
+    
 }
 @media (max-width: 500px){
     .banner h1{
