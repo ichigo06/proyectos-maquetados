@@ -321,18 +321,24 @@ color: #FFFFFF;
     align-items: center;
     flex-direction: column;
     }
-    .display-grid-template  {
-        display: none;
+    .display-grid-template-2 {
+        display: none !important;
     }
     .icono-buscador {
         display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         
-     };
+     }
     .icono-buscador .icono i {
-        color #ffffff;
+        color: #ffffff;
     }
     .imagen-2 {
         display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
    
    
